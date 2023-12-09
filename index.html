@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inner">
+            <h1 class="inner__title">Contact app</h1>
+            <div class="wrapper">
+                <form class="form border p-3 rounded w-50 js-form">
+                    <h3 class="form__title">Add new Contact Number</h3>
+                    <label>Name: </label>
+                    <input type="text" class="block w100 input-name" required>
+                    <label>Contact Number: </label>
+                    <input type="tel" class="block w100 input-number" required>
+                    <label> Select Type: </label>
+                    <select class="block w100 js-select" required>
+                        <option value="no" hidden>Type</option>
+                        <option value="family">Family</option>
+                        <option value="work">Work</option>
+                        <option value="friend">Friends</option>
+                    </select>
+                    <button class="w100 form-btn" type="submit">Submit</button>
+                </form>
+                <div class="contact-show border-4 p-3 w-50">
+                    <div class="btn-group">
+                        <button class="btn btn-orange">All <span class="btn-1">0</span></button>
+                        <button class="btn btn-red">Family <span class="btn-2">0</span></button>
+                        <button class="btn btn-green">Work <span class="btn-3">0</span></button>
+                        <button class="btn btn-blue">Friends <span class="btn-4">0</span></button>
+                    </div>
+                    <div class="az-za">
+                        <button class="btn btn-az">A - Z</button>
+                        <button class="btn btn-za">Z - A</button>
+                    </div>
+                    <ul class="list-group list-unstyled border border-1 js-list">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

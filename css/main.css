@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ff0000;
+}
+
+.inner__title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: blue;
+}
+
+.wrapper {
+    column-gap: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.js-form {
+    width: 50%;
+    border: 1px solid #766f6f;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.contact-show {
+    width: 50%;
+    border: 1px solid #766f6f;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.form__title {
+    font-size: 30px;
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+input, select {
+    padding: 15px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    font-size: 20px;
+    outline-color: rgb(255, 174, 108);
+}
+
+input {
+    color: #888;
+}
+
+
+label {
+    font-size: 26px;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    color: rgb(255, 115, 0);
+}
+
+.js-select {
+    margin-bottom: 30px;
+}
+
+.form-btn {
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(255, 174, 108);
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-blue {
+    background-color: blue;
+    color: white;
+}
+
+.btn-orange {
+    background-color: orange;
+    color: white;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+}
+
+.btn-green {
+    background-color: green;
+    color: white;
+}
+
+.btn {
+    border: 0;
+    padding: 10px;
+    flex-grow: 1;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.az-za {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    box-shadow: rgba(70, 65, 65, 0.24) 0px 5px 10px;;
+}
+
+.btn-az, .btn-za {
+    background-color: #fff;
+    border: 1px solid #03a1ac;
+    color: #03a1ac;
+}
+
+.userName {
+    font-size: 24px;
+    text-align: start;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #000;
+}
+
+.userPhone {
+    font-size: 20px;
+    text-align: start;
+    font-weight: 600;
+    color: #766f6f;
+    text-decoration: none;
+}
+
+.userType {
+    font-style: 72px;
+    color: #000;
+    margin-right: 30px;
+}
+
+.js-list {
+    height: 326px;
+    overflow-y: scroll;
+}
